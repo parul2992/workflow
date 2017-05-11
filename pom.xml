@@ -27,6 +27,7 @@
             <phase>package</phase>
                 <goals><goal>copy</goal></goals>
                 <configuration>
+    		  <webXml>WebContent\WEB-INF\web.xml</webXml>
                     <artifactItems>
                         <artifactItem>
                             <groupId>com.github.jsimone</groupId>
